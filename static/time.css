@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    justify-content:center;
+    background-color: rgba(16, 15, 18, 0.912);
+}
+
+.box {
+    background-image:linear-gradient(to right, #fbaee5,#7074f0) ;
+    margin: 10px;
+    /* border: 10px rgb(15, 50, 68); */
+    border-radius: 25px;
+    box-shadow: 0 0 50px #44c7ec;
+    padding: 30px;
+    
+}
+
+.heading{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;  
+    color: #794464; 
+}
+
+.time{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    font-family: 'Digital-7', sans-serif;
+    font-size: 48px;  /* You can adjust the size */
+    color: #00ff00;   /* Example: green color like a digital clock */
+    text-align: center;
+
+}
+.ap{
+    font-size: 20px;
+    padding:5px;
+}
+
+.date{
+    justify-content: center;
+    display: flex;
+    color: #f8fdfb;
+    
+
+}
